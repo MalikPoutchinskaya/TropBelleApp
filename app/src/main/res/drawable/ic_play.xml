@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportHeight="48"
+    android:viewportWidth="48">
+
+    <group
+        android:name="@string/groupPlayPause"
+        android:pivotX="24"
+        android:pivotY="24">
+
+        <path
+            android:name="@string/cross"
+            android:fillColor="@color/stroke_color"
+            android:pathData="@string/path_play"
+            android:strokeColor="@color/stroke_color"
+            android:strokeLineCap="square"
+            android:strokeWidth="@integer/stroke_width" />
+
+    </group>
+
+</vector>
